@@ -10,4 +10,4 @@ sudo modprobe -r tcp_bbr
 sudo modprobe -r tcp_bbr_ruk 
 sudo insmod tcp_bbr_ruk.ko
 
-2018-10-17	tcp_bbr: centralize code to set gains
+2018-10-17-1	tcp_bbr: centralize code to set gains
