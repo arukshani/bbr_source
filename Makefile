@@ -1,6 +1,6 @@
 obj-m += tcp_bbr_ruk.o
-# make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
-# obj-m:=tcp_bbr.o
+# obj-m += tcp_output.o
+
 
 
 all:
