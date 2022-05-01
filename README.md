@@ -27,7 +27,7 @@ Works on 5.4
 2018-03-01	    tcp_bbr: better deal with suboptimal GSO (II)
 
 Works only on 4.16 
-2018-02-01	tcp_bbr: fix pacing_gain to always be unity when using lt_bw
+2018-02-01	tcp_bbr: fix pacing_gain to always be unity when using lt_bw (matches with 4.16)
 2018-01-19	tcp: avoid min RTT bloat by skipping RTT from delayed-ACK in BBR
 
 Works on 4.15
